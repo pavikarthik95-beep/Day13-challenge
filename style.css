@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f0f3f6;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Grid layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+/* Card Design */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+/* Button */
+.like-btn {
+    padding: 10px 30px;
+    background: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.like-btn:hover {
+    background: #005fcc;
+}
+
+.like-btn.liked {
+    background: #ff4081;
+}
+
+/* Count */
+.count {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #444;
+}
+
